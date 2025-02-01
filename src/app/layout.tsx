@@ -5,8 +5,6 @@ import "./globals.css";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { GridPattern } from "@/components/ui/grid-pattern";
 
-export const runtime = "edge";
-
 export const metadata: Metadata = {
   title: "AI Twitter Bio Generator: Stand Out in Seconds",
   description:

@@ -6,8 +6,6 @@ import { BioProvider } from "@/context/BioContext";
 import { Star, ArrowRight } from "lucide-react";
 import Link from "next/link";
 
-export const runtime = "edge";
-
 export default function Home() {
   return (
     <main className="relative grid grid-cols-1 lg:grid-cols-2 gap-12 px-4 py-12 sm:py-16 sm:px-8 md:px-10 lg:p-24">
